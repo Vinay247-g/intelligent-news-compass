@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -61,7 +62,33 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// News-specific colors
+				breaking: 'hsl(var(--breaking))',
+				trending: 'hsl(var(--trending))',
+				politics: 'hsl(var(--politics))',
+				technology: 'hsl(var(--technology))',
+				sports: 'hsl(var(--sports))',
+				business: 'hsl(var(--business))',
+				// Sentiment colors
+				positive: 'hsl(var(--positive))',
+				neutral: 'hsl(var(--neutral))',
+				negative: 'hsl(var(--negative))'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)'
+			},
+			boxShadow: {
+				'card': 'var(--shadow-card)',
+				'news-sm': 'var(--shadow-sm)',
+				'news-md': 'var(--shadow-md)',
+				'news-lg': 'var(--shadow-lg)'
+			},
+			transitionProperty: {
+				'all': 'var(--transition-all)',
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
